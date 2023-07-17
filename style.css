@@ -1,0 +1,43 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.personenInfo {
+    display: flex;
+    flex-direction: column;
+    padding-left: 140px;
+    padding-right: 140px;
+    padding-top: 10%;
+}
+
+.personenInfo #information {
+    display: flex;
+    flex-direction: column;
+    background-color: #103f51;
+    padding: 38px 75px 44px;
+    border-radius: 20px;
+}
+
+.personenInfo #information button {
+    padding: 10px;
+    font-size: 25px;
+    background-color: #246978;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.personenInfo #information input {
+    padding: 10px;
+    padding-left: 35px;
+    color: rgb(255, 255, 255);
+    background-color: #404a8ae5;
+    border: none;
+    font-size: 25px;
+}
+
+.personenInfo #information placeholder {
+    color: rgb(243, 240, 240);
+}
